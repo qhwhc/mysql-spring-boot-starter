@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: mysql
+  messages:
+    encoding: UTF-8
+
+logging:
+  level:
+    root:  ERROR
+    org.springframework:  ERROR
+    org.mybatis:  ERROR
+    org.linlinjava.litemall.db:  DEBUG
+
+#服务器
+server:
+  port: 8080

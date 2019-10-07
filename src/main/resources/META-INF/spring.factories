@@ -1,0 +1,6 @@
+#如果有多个 ，则用逗号分开
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.qhwhc.mysql.config.DruidConfig,\
+  com.github.qhwhc.mysql.config.MybatisPlusConfig,\
+  com.github.qhwhc.mysql.config.RedisConfig,\
+  com.github.qhwhc.mysql.util.RedisUtil
